@@ -1,0 +1,24 @@
+{
+  "name": "react-training",
+  "version": "1.0.0",
+  "description": "npm i http-server -g http-server -p 3000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mghaderyan-nisum-com/react-training.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mghaderyan-nisum-com/react-training/issues"
+  },
+  "homepage": "https://github.com/mghaderyan-nisum-com/react-training#readme",
+  "devDependencies": {
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1"
+  }
+}
