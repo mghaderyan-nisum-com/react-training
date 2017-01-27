@@ -1,0 +1,21 @@
+.cart-list__header {
+  list-style-type: none;
+  padding-left: 0;
+  padding-bottom: 20px;
+}
+
+.cart-list__header li {
+  font-weight: bold;
+  float: left;
+  margin-right: 5%;
+  width: 15%;
+}
+
+.items-container {
+  clear: both;
+}
+
+.actions-container {
+  clear: both;
+  padding-top: 20px;
+}
