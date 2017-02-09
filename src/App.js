@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Cart from './components/Cart'
+import Timer from './components/Timer'
 
 const App = React.createClass({
     getInitialState: function() {
@@ -46,6 +47,7 @@ const App = React.createClass({
     render() {
         return (
             <div className="App">
+                <Timer />
                 <h2>Shopping Card App</h2>
                 <Cart items={this.state.items} handleChangeQty={this.handleChangeQty}
                   handleRemove={this.handleRemove} />
