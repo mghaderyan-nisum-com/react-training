@@ -18,7 +18,7 @@ const Cart = React.createClass({
     }
 });
 
-Cart.PropTypes = {
+Cart.propTypes = {
     items: React.PropTypes.array.isRequired,
     handleChangeQty: React.PropTypes.func.isRequired,
     handleRemove: React.PropTypes.func.isRequired,
