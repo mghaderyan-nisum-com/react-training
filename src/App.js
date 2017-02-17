@@ -41,7 +41,7 @@ const App = React.createClass( {
 	},
   handleChange:function(item,value){
   	var allItems = this.state.items.filter(function(element){
-  		if(element.title==item.title){
+  		if(element.title===item.title){
   			element.qty = value;
   		}
   		return element;
@@ -68,10 +68,7 @@ const App = React.createClass( {
 							    qty: 2,
 							    total: 100,
 							  }];
-
-
      this.setState({items: allItems});
-
     }
     setTimeout(callback.bind(this),3000);
   },
